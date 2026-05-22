@@ -48,8 +48,10 @@ app.register_blueprint(cost_routes)
 def home():
     return jsonify({"message": "AI Trip Planner Backend is running!"})
 
+# Create database tables automatically for Render
+with app.app_context():
+    db.create_all()
+    print("Database tables created!")
+
 if __name__ == "__main__":
-    with app.app_context():
-        db.create_all()
-        print("Database tables created!")
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
