@@ -81,14 +81,13 @@ https://drive.google.com/your-demo-link
 
 ## 🌐 Live Project (Optional)
 
-(Add Deployment Link Here)
+## 🚀 Live Demo
 
-Example:
+🔗 Frontend (Live Website):  
+https://ai-trip-planner-frontend-mxqs.onrender.com
 
-```text
-https://ai-trip-planner.vercel.app
-```
-
+🔗 Backend API:  
+https://ai-trip-planner-backend-5ibg.onrender.com
 ---
 
 # ✨ Features
@@ -478,27 +477,21 @@ Example:
 
 ---
 
-## 🗺️ Plan Trip Page
-
-Add Screenshot Here
-
----
-
 ## 📅 Generated Itinerary
 
-Add Screenshot Here
+![Itinerary Page](screenshots/itinerary.png)
 
 ---
 
-## 💰 Budget Estimator
+## 💰 Contact Page
 
-Add Screenshot Here
+![Contact Page](screenshots/contact.png)
 
 ---
 
 ## 💬 AI Travel Chatbot
 
-Add Screenshot Here
+![Chatbot Page](screenshots/chatbot.png)
 
 ---
 
