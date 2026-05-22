@@ -1,0 +1,101 @@
+{
+  "trip_plan": {
+    "destination": "Goa",
+    "duration_days": 3,
+    "traveler_type": "Couple",
+    "budget": "Cheap"
+  },
+  "hotel_options": [
+    {
+      "hotel_name": "FabHotel Casa De Gama Pinto",
+      "address": "Near Calangute Beach Road Mall, Saligao, Bardez, North Goa, Goa",
+      "phone_number": "N/A",
+      "coordinates": {
+        "latitude": 15.5383,
+        "longitude": 73.7649
+      },
+      "hotel_image_url": "https://images.fabric-assets.com/fab-h/720/720/19082.jpg",
+      "description": "A budget-friendly option offering comfortable rooms and a convenient location in North Goa, close to Calangute and Baga beaches. It provides a good balance of affordability and essential amenities for a couple."
+    },
+    {
+      "hotel_name": "Resort De Alturas",
+      "address": "Candolim, Bardez, North Goa, Goa, 403515, India",
+      "phone_number": "N/A",
+      "coordinates": {
+        "latitude": 15.5218,
+        "longitude": 73.7702
+      },
+      "hotel_image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/49/79/1c/resort-de-alturas.jpg?w=1200&h=-1&s=1",
+      "description": "Located in Candolim, this resort offers a slightly more upscale experience while still being budget-friendly. It features a swimming pool and is a short distance from the beach, making it a romantic and relaxing choice for couples."
+    },
+    {
+      "hotel_name": "The Tubki Resort",
+      "address": "Palolem-Patnem Road, Palolem, Canacona, Goa, 403702, India",
+      "phone_number": "N/A",
+      "coordinates": {
+        "latitude": 14.998,
+        "longitude": 74.0263
+      },
+      "hotel_image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/45/4d/9b/the-tubki-resort.jpg?w=1200&h=-1&s=1",
+      "description": "Situated in South Goa near Palolem Beach, this resort offers a peaceful retreat. It's ideal for couples looking to relax and enjoy the serene beaches of the south. The rooms are comfortable and the resort has a pleasant ambiance."
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "theme": "North Goa Vibes & Sunset Forts",
+      "places": [
+        {
+          "placeName": "Baga Beach",
+          "placeImageURL": "https://www.holidify.com/images/bg_images/baga-beach.jpg",
+          "GeoCoordinates": {
+            "latitude": 15.5588,
+            "longitude": 73.7533
+          },
+          "ticket_pricing": "Free",
+          "best_time_to_visit": "Early morning to avoid crowds, or evening for the sunset and nightlife."
+        },
+        {
+          "placeName": "Calangute Beach",
+          "placeImageURL": "https://www.holidify.com/images/cmsuploads/compressed/181_20190823180536.jpg",
+          "GeoCoordinates": {
+            "latitude": 15.5439,
+            "longitude": 73.7553
+          },
+          "ticket_pricing": "Free",
+          "best_time_to_visit": "Daytime for water sports and beach shacks."
+        },
+        {
+          "placeName": "Chapora Fort",
+          "placeImageURL": "https://www.holidify.com/images/cmsuploads/compressed/Chapora_Fort_20190211153444.jpg",
+          "GeoCoordinates": {
+            "latitude": 15.606,
+            "longitude": 73.735
+          },
+          "ticket_pricing": "Free",
+          "best_time_to_visit": "Late afternoon to witness a stunning sunset over the Vagator beach."
+        },
+        {
+          "placeName": "Vagator Beach",
+          "placeImageURL": "https://www.holidify.com/images/cmsuploads/compressed/432_20190823180816.jpg",
+          "GeoCoordinates": {
+            "latitude": 15.592,
+            "longitude": 73.732
+          },
+          "ticket_pricing": "Free",
+          "best_time_to_visit": "Evening to relax and enjoy the cliff-side cafes."
+        },
+        {
+          "placeName": "Anjuna Flea Market",
+          "placeImageURL": "https://www.holidify.com/images/cmsuploads/compressed/AnjunaFleaMarket_20170908180252.jpg",
+          "GeoCoordinates": {
+            "latitude": 15.5833,
+            "longitude": 73.7408
+          },
+          "ticket_pricing": "Free entry (Shopping costs vary)",
+          "best_time_to_visit": "Wednesday, from morning till evening."
+        }
+      ]
+    }
+  ]
+}
