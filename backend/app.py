@@ -31,8 +31,7 @@ app.config["JWT_SECRET_KEY"] = os.getenv("JWT_SECRET_KEY", "jwtsecretkey")
 app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(days=1)
 
 # CORS
-CORS(app, origins=["http://localhost:5173", "http://127.0.0.1:5173"], supports_credentials=True)
-
+CORS(app, supports_credentials=True)
 # Initialize extensions
 db.init_app(app)  # Important: init_app instead of passing app to SQLAlchemy()
 jwt = JWTManager(app)
@@ -53,4 +52,4 @@ if __name__ == "__main__":
     with app.app_context():
         db.create_all()
         print("Database tables created!")
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
